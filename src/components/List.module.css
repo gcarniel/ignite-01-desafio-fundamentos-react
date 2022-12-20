@@ -1,0 +1,8 @@
+.list {
+  width: 100%;
+}
+
+.content {
+  max-height: 28.2rem;
+  overflow-y: scroll;
+}

@@ -1,0 +1,44 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  border-radius: 8px;
+  min-height: 3.5rem;
+  background-color: var(--gray-500);
+  list-style: none;
+  margin-bottom: 0.75rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.item img {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  opacity: 0.5;
+}
+
+.item img:hover {
+  opacity: 1;
+}
+
+.read {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
+.trash {
+  padding: 0.25rem;
+  color: var(--gray-300);
+}
+
+.trash:hover {
+  cursor: pointer;
+  color: var(--danger);
+  background-color: var(--gray-400);
+}
+
+.item > div {
+  flex: 1;
+}
